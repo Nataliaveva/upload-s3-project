@@ -1,6 +1,6 @@
 # Subida de Archivos a Amazon S3 con Python
 
-Este proyecto permite subir archivos a un bucket de Amazon S3 utilizando **boto3**. Puedes optar por crear un nuevo bucket o utilizar uno existente. Se asegura el manejo seguro de credenciales mediante variables de entorno, evitando la inclusión directa de claves en el código.
+Este proyecto permite subir archivos a un bucket de Amazon S3 utilizando **boto3**. Puedes optar por crear un nuevo bucket o utilizar uno existente. Se asegura el manejo seguro de las credenciales mediante variables de entorno, evitando la inclusión directa de claves en el código.
 
 ---
 
@@ -8,7 +8,13 @@ Este proyecto permite subir archivos a un bucket de Amazon S3 utilizando **boto3
 
 - [Requisitos Previos](#requisitos-previos)
 - [Instalación y Configuración](#instalación-y-configuración)
+  - [1. Clonar el Repositorio o Descargar el Script](#1-clonar-el-repositorio-o-descargar-el-script)
+  - [2. Crear y Activar un Entorno Virtual](#2-crear-y-activar-un-entorno-virtual)
+  - [3. Instalar Dependencias](#3-instalar-dependencias)
 - [Configuración de Credenciales de AWS](#configuración-de-credenciales-de-aws)
+  - [En Linux/macOS](#en-linuxmacos)
+  - [En Windows](#en-windows)
+  - [Verificar la Configuración](#verificar-la-configuración)
 - [Cómo Ejecutar el Script](#cómo-ejecutar-el-script)
 - [Ejemplo de Uso](#ejemplo-de-uso)
 - [Validación de la Carga](#validación-de-la-carga)
@@ -38,10 +44,11 @@ Puedes clonar este repositorio con Git o descargar el script directamente:
 ```bash
 git clone https://github.com/tu_usuario/s3-uploader.git
 cd s3-uploader
-
 ### 2. Crear y Activar un Entorno Virtual
 
 Es recomendable usar un entorno virtual para aislar las dependencias del proyecto:
 
 ```bash
 python -m venv venv
+
+
