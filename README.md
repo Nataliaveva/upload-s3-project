@@ -39,19 +39,9 @@ Puedes clonar este repositorio con Git o descargar el script directamente:
 git clone https://github.com/tu_usuario/s3-uploader.git
 cd s3-uploader
 
-### 1. Clonar el Repositorio o Descargar el Script
 ### 2. Crear y Activar un Entorno Virtual
+
 Es recomendable usar un entorno virtual para aislar las dependencias del proyecto:
+
 ```bash
 python -m venv venv
-
-En Windows:
-```bash
-Copiar
-venv\Scripts\activate
-En Linux/macOS:
-```bash
-Copiar
-source venv/bin/activate
-Verifica que el prompt de la terminal muestre (venv).
-
