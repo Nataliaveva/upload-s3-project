@@ -163,5 +163,19 @@ Desarrollado en Python utilizando la librería boto3.
 
 Basado en las mejores prácticas de seguridad para el manejo de credenciales en AWS.
 
+### 2. Crear y Activar un Entorno Virtual
+
+Es recomendable usar un entorno virtual para aislar las dependencias del proyecto. Para ello, ejecuta:
+
+```bash
+python -m venv venv
+Luego, activa el entorno virtual:
+
+### En Windows:
+
+```bash
+venv\Scripts\activate
+
+
 
 
