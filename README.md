@@ -45,7 +45,7 @@ Puedes clonar este repositorio con Git o descargar el script directamente:
 git clone https://github.com/tu_usuario/s3-uploader.git
 cd s3-uploader
 
-## 2. Crear y Activar un Entorno Virtual
+### 1. Clonar el Repositorio o Descargar el Script
 
 Es recomendable usar un entorno virtual para aislar las dependencias del proyecto. Para ello, ejecuta:
 
